@@ -1,6 +1,6 @@
 # 🔍 CSS Inspector Extension
 
-A Chrome extension that helps you analyze **inline CSS styles** on any webpage. When hovering over an element, this tool highlights unused inline styles and displays all computed styles in a floating panel. Perfect for developers and designers looking to debug layout issues or optimize CSS.
+A Chrome extension that helps you analyze **inline CSS styles** on any webpage. When hovering over an element, this tool highlights unused inline styles .
 
 ---
 
@@ -11,12 +11,6 @@ A Chrome extension that helps you analyze **inline CSS styles** on any webpage. 
   - ❌ Red dashed border for unused inline styles
 - 📋 Floating style panel showing:
   - ❌ **Unused Inline Styles** (red dashed)
-  - 💡 **All Computed Styles** (gray background)
-- 📎 Buttons to **copy styles** directly to clipboard:
-  - Unused Inline Styles
-  - All Computed Styles
-- 🔌 One-click activation from browser popup
-- 💨 Lightweight and memory-safe — cleans up overlays and listeners when toggled off
 
 ---
 
@@ -29,7 +23,6 @@ A Chrome extension that helps you analyze **inline CSS styles** on any webpage. 
 | `inspector.js`      | Injected into the webpage to inspect and display CSS                   |
 | `remove-inspector.js`| Cleans up overlays and event listeners                                 |
 | `manifest.json`     | Chrome extension metadata and permissions                              |
-| `background.js`     | (Optional) Service worker for future logic                             |
 
 ---
 
