@@ -1,0 +1,68 @@
+<html>
+<head>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      padding: 12px;
+      background: #f4f7f9;
+      color: #333;
+      max-width: 700px;
+    }
+    h2 {
+      margin-top: 0;
+    }
+    #css-output {
+      background: #1e1e1e;
+      color: #d4d4d4;
+      border-radius: 6px;
+      padding: 12px;
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 13px;
+      white-space: pre-wrap;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+    .selector {
+      color: #dcdcaa;
+    }
+    .property {
+      color: #569cd6;
+    }
+    .value {
+      color: #ce9178;
+    }
+    .punctuation {
+      color: #808080;
+    }
+    .unused {
+      opacity: 0.5;
+      text-decoration: line-through red;
+    }
+    .buttons {
+      margin-top: 10px;
+      display: flex;
+      gap: 10px;
+    }
+    button {
+      padding: 8px 16px;
+      background-color: #3f51b5;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: monospace;
+    }
+    button:hover {
+      background-color: #303f9f;
+    }
+  </style>
+</head>
+<body>
+  <h2>CSS Overview</h2>
+  <div id="css-output" class="highlight"></div>
+  <div class="buttons">
+    <button id="copy-clean">Copy Clean CSS</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
